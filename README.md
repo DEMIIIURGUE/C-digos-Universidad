@@ -1,7 +1,7 @@
 # DESARROLLO TALLER 2.                       
 Códigos entregables universidad Nariño    
 Desarrollado Por:                         
-* Juan José Torres Q. 220160099.            
+* Juan José Torres Quiñonez. 220160099.            
 * Jeison Guillermo Moreno Eraso. 220160072.  
 * Jonathan David Rosero Moreno. 220160119.
 
