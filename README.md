@@ -21,6 +21,18 @@ Para correr el programa, por favor, ejecute cada fragmento en orden.
 
 * Resultados:
 Se logró entrenar el código con los datos disponibles.
+Al correr el código debe observarse algo como lo muestra la imagen:
+![Alt text](image-1.png)
+
+Después de ello se analiza si es negativo u positivo clasificandolo como 0 y 1
+respectivamente.
+![Alt text](image-2.png)
+
+Se traduce de 0 y 1 a palabras como se muestra en la imagen:
+![Alt text](image-3.png)
+
+Finalmente se exporta como CSV.
+
 Se evidencia la clasificación de los datos faltantes.
 Como puede observarse, la salida está exportada en formato CSV tal y como se pidió.
 Al evaluar el rendimiento del modelo, podemos decir en base a la siguiente imagen que el modelo trabaja correctamente: 
