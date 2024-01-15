@@ -8,6 +8,8 @@ Desarrollado Por:
 * Introducción:
 En el presente trabajo se pretende presentar por medio de código en python, el entrenamiento de un modelo para la clasificación de datos faltantes importados desde la base de datos obtenida de una planta agroindustrial real. Dicho modelo presenta el análisis y alerta en casos de fallas en la red eléctrica por medio del reconocimiento de datos anómalos en tensión RMS en una de las fases del dispositivo.
 
+![Alt text](imagen5.png)
+
 * Objetivos:
 Automatizar un proceso, en este caso, el reconocimiento de fallas en la red eléctrica de la planta agroindustrial.
 Clasificar los datos anómalos.
@@ -23,6 +25,10 @@ Los principales obstáculos en el desarrollo de este programa radican en:
 
 
 * Resultados:
+![Alt text](imagen4.png)
 Se obtuvo el modelo que cumple con los requerimientos funionales para la automatización de la tarea de alerta a operarios en caso de problemas en la red eléctrica. Se evidencia la clasificación de los datos anómalos.
 De la misma forma se logró automatizar la exportación de graficas de 300dpi lo cual es una buena resolución para posteriorres análisis de los datos.
 Nuestro programa facilita la monitorización de las medidas sobre la calidad de potencia eléctrica para los 8 días registrados por la máquina, brinda información fisual a trvés de gráficas con el mismo fin y además da el análisis de los posibles problemas en la red eléctrica como los mostrados en la gráfica.
+![Alt text](imagen3.png)
+![Alt text](imagen2.png)
+![Alt text](imagen1.png)
