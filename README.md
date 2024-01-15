@@ -1,4 +1,4 @@
-# DESARROLLO TALLER 2.                       
+# DESARROLLO PROYECTO FINAL.                       
 Códigos entregables universidad Nariño    
 Desarrollado Por:                         
 * Juan José Torres Quiñonez. 220160099.            
@@ -6,34 +6,19 @@ Desarrollado Por:
 * Jonathan David Rosero Moreno. 220160119.
 
 * Introducción:
-En el presente trabajo se pretende desarrollar por medio de código en python, el entrenamiento de una red neuronal para la clasificación de datos faltantes importados con SQL calificando el precisión de dicha predicción.
+En el presente trabajo se pretende presentar por medio de código en python, el entrenamiento de un modelo para la clasificación de datos faltantes importados desde la base de datos obtenida de una planta agroindustrial real. Dicho modelo presenta el análisis y alerta en casos de fallas en la red eléctrica por medio del reconocimiento de datos anómalos en tensión RMS en una de las fases del dispositivo.
 
 * Objetivos:
-Entrenar el código con los datos disponibles.
-Clasificar los datos faltantes.
-Exportar la salida con formato CSV.
-Evaluar el rendimiento del modelo.
+Automatizar un proceso, en este caso, el reconocimiento de fallas en la red eléctrica de la planta agroindustrial.
+Clasificar los datos anómalos.
+Exportar gráficas representativas.
 
 * Descripción:
-El programa contiene el desarrollo del segundo taller de Profundización de Automatización y Control.
-Código para identificación de datos positivos y negativos con entrenamiento de Machine Learning.
-Para correr el programa, por favor, ejecute cada fragmento en orden.
+El programa contiene el desarrollo del proyecto final en la materia de Profundización de Automatización y Control respecto a una idea propuesta por cada grupo. En nuestro caso, optamos por trabajar orientados en la industria, con datos que registran las medidas de calidad de potencia con el analizador de redes instalado en el punto de inyección de un sistema fotovoltaico de 15kWp que integra 30 PV a 540 W, y finalmente dar un agregado con lo aprendido en la materia.
+
+Los principales obstáculos en el desarrollo de este programa radican en:
++ Los datos: Los datos se encontraban en un formato CSV pero los valores estaban guardados como cadena de caracteres y en notación científica, por lo tanto se requirión un pre-procesado de los datos, filtrándolos y ajustándolos para facilitar la lectura de los mismos en VScode.
++ Cantidad de datos: El módulo encargado de arrojar los datos usados, solo guarda una cantidad finita y relativamente pequeña de los mismos, por lo cual se generó un desequilibrio de casos dificultando enormemente obtener resultados satisfactorios en las predicciones de nuestro modelo.
+
 
 * Resultados:
-Se logró entrenar el código con los datos disponibles.
-Al correr el código debe observarse algo como lo muestra la imagen:
-![Alt text](image-1.png)
-
-Después de ello se analiza si es negativo u positivo clasificandolo como 0 y 1
-respectivamente.
-![Alt text](image-2.png)
-
-Se traduce de 0 y 1 a palabras como se muestra en la imagen:
-![Alt text](image-3.png)
-
-Finalmente se exporta como CSV.
-
-Se evidencia la clasificación de los datos faltantes.
-Como puede observarse, la salida está exportada en formato CSV tal y como se pidió.
-Al evaluar el rendimiento del modelo, podemos decir en base a la siguiente imagen que el modelo trabaja correctamente: 
-![Alt text](image.png)
